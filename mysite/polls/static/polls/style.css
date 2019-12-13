@@ -1,3 +1,9 @@
 body {
-    background-color: red;
+    background: white url("images/cat.jpg") no-repeat;
+
 }
+
+li a {
+    color: green;
+}
+

@@ -2,9 +2,11 @@
 <html>
     <head>
     <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css'%}">
+    
     </head>
     <body>
         
+        {#<img src="{% static "polls/cat.jpg" %}" alt="Cat image">#}
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
@@ -17,6 +19,5 @@
     <p>No polls are available.</p>
 {% endif %}
 
-   <img src="{% static "polls/cat.jpg" %}" alt="Cat image">
 </body>
 </html>
